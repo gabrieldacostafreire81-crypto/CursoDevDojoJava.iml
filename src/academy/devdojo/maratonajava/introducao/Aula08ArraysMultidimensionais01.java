@@ -25,6 +25,13 @@ public class Aula08ArraysMultidimensionais01 {
             }
             
         }
+        System.out.println("----------------------");
+
+        for(int[] arryBase: dias ) {
+            for (int num: arryBase) {
+                System.out.println(num);
+            }
+        }
 
     }
 
